@@ -9,7 +9,7 @@ byte bluePin = 9;
 
 void setup()
 {
-  Serial.begin(9600); // taxa de transmicao de pulsos por seg
+  Serial.begin(9600); // taxa de transmissão de pulsos por seg
   Serial.flush();
   
   pinMode(redPin, OUTPUT);
